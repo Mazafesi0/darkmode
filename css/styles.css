@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+header p {
+    font-size: 30px;
+}
+
+header .btn-container {
+    display: flex;
+    align-items: center;
+}
+
+header .btn-container p{
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.btn-togle {
+    padding: 8px;
+    border-radius: 50px;
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    cursor: pointer;
+}
+
+header .icono-sol, .icono-luna {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.icono-sol {
+    background-color: yellow;
+}
+
+.icono-luna {
+    background-color: cornflowerblue;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+main p {
+    padding: 0 180px 0 180px;
+}
+
+/* MODO OSCURO */
+
+.dark-mode {
+    background-color: #000;
+    color: yellow;
+}
+
+.dark-mode .btn-container button{
+    background-color: gray;
+}
+
+.dark-mode .btn-container p{
+    color: #fff;
+}
+
+.dark-mode .icono-sol {
+    opacity: 0%;
+}
+
+.dark-mode .icono-luna {
+    display: inline-block;
+}
+
+.icono-luna {
+    display: none;
+}
